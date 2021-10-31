@@ -42,7 +42,7 @@ function App() {
         <label className = "form-label mx-3" onChange={handleRate} value = {roi}>Rate of Interest:
         <input type="text" />
         </label>
-        <label className = "form-label mx-3" onChange={handleTenure} value = {tenure}>Tenure (in months):
+        <label className = "form-label mx-3" onChange={handleTenure} value = {tenure}>Tenure (months):
         <input type="text" />
         </label>
     </div>
